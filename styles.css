@@ -1,11 +1,27 @@
 .container {
     display: flex;
     flex-wrap: wrap;
+    padding: 64px;
 }
 
 #grid {
     border: 1px solid black;
     width: 64px;
     height: 64px;
+}
+
+.createSection {
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+    padding-bottom: 0px;
+}
+
+button {
+    font-size: medium;
+    text-align: center;
+    border-radius: 16px;
+    border: 1px solid gray;
+    height: 32px;
 }
 
