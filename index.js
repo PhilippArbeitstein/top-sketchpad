@@ -4,7 +4,7 @@ generateGrid();
 
 // Get Grid Cells
 const gridCells = document.querySelectorAll("#grid");
-gridCells.forEach(function(node) {
+gridCells.forEach(node => {
     node.addEventListener("mouseenter", () => {
         node.style['background-color'] = "red";
     });
